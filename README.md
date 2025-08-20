@@ -6,7 +6,6 @@
 - `su1-volume-bridge/` — Swift CLI-демон (SPM), следит за появлением/пропаданием SU-1, включает Background Music как `Default Output` и (в дальнейшем) настраивает его вывод на SU-1. Есть режим Bypass.
 - `launchagents/com.deagle.su1volumebridge.plist` — LaunchAgent для автозапуска демона при логине.
 - `scripts/install.sh` / `scripts/uninstall.sh` — установка и удаление (brew + login item + LaunchAgent + сборка CLI).
-- `task.md` — постановка задачи.
 
 ### Установка
 ```bash
