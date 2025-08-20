@@ -1,0 +1,23 @@
+# SwiftPM
+.build/
+/.swiftpm/
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+DerivedData/
+
+# Logs
+*.log
+**/build_and_install.log
+
+# macOS
+.DS_Store
+
+# Binaries
+~/Library/Application Support/SU1VolumeBridge/bin/
+
+# Archives/PKG
+third_party/BackgroundMusic/archives/
+pkg/
+
